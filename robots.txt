@@ -7,10 +7,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-User-agent: Yeti
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-Sitemap: https://t3b08-yn-karaoke-pr-1.pages.dev/sitemap.xml
+Sitemap: https://yeonnam-room-song.program-school.online/sitemap.xml

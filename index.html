@@ -21,31 +21,37 @@
     <meta name="twitter:description" content="연남동 감성 가라오케, 합리적인 연남 가라오케 가격으로 프리미엄 사운드와 아늑한 공간을 즐기세요.">
 
     <!-- JSON-LD Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "EntertainmentBusiness",
+  "name": "연남 가라오케",
+  "description": "연남동 감성 가라오케, 프리미엄 사운드와 합리적인 가격으로 누구나 부담 없이 즐기는 노래방.",
+  "telephone": "+82-10-6279-0862",
+  "url": "https://yeonnam-room-song.program-school.online/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "서울",
+    "addressRegion": "마포구",
+    "addressCountry": "KR"
+  },
+  "priceRange": "₩₩",
+  "openingHoursSpecification": [
     {
-        "@context": "https://schema.org",
-        "@type": "EntertainmentBusiness",
-        "name": "연남 가라오케",
-        "description": "연남동 감성 가라오케, 프리미엄 사운드와 합리적인 가격으로 누구나 부담 없이 즐기는 노래방.",
-        "telephone": "+82-10-6279-0862",
-        "url": "https://t3b08-yn-karaoke-pr-1.vercel.app/",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "서울",
-            "addressRegion": "마포구",
-            "addressCountry": "KR"
-        },
-        "priceRange": "₩₩",
-        "openingHoursSpecification": [
-            {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "14:00",
-                "closes": "04:00"
-            }
-        ]
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "14:00",
+      "closes": "04:00"
     }
-    </script>
+  ]
+}</script>
 
     <style>
         /* Reset & Base */

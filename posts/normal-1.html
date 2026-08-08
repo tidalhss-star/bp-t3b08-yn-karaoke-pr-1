@@ -1,180 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>안드레이 타르코프스키의 장시간 촬영(Long Take)과 조형적 침묵의 미학</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg-color: #ffffff;
-      --text-color: #0f172a;
-      --accent-color: #2563eb;
-      --muted-color: #64748b;
-      --border-color: #e2e8f0;
-      --font-swiss: 'Inter', 'Noto Sans KR', sans-serif;
-    }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      font-family: var(--font-swiss);
-      line-height: 1.8;
-      letter-spacing: -0.01em;
-      padding: 0 24px;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 60px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 24px;
-      margin-bottom: 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-    }
-    .logo {
-      font-size: 1.25rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      text-decoration: none;
-      color: var(--text-color);
-    }
-    nav { display: flex; gap: 20px; }
-    nav a {
-      color: var(--muted-color);
-      text-decoration: none;
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      font-weight: 600;
-      transition: color 0.2s ease;
-    }
-    nav a:hover { color: var(--accent-color); }
-    main { padding-bottom: 60px; }
-    .meta-tag {
-      font-size: 0.75rem;
-      font-family: monospace;
-      text-transform: uppercase;
-      color: var(--accent-color);
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      margin-bottom: 16px;
-      display: inline-block;
-    }
-    h1 {
-      font-size: 2.3rem;
-      font-weight: 700;
-      line-height: 1.3;
-      letter-spacing: -0.02em;
-      color: var(--text-color);
-      margin-bottom: 32px;
-    }
-    .content {
-      font-size: 1.05rem;
-      color: var(--text-color);
-      margin-bottom: 48px;
-      font-weight: 400;
-    }
-    .content p { margin-bottom: 20px; }
-    .juice-link {
-      color: var(--accent-color);
-      text-decoration: none;
-      border-bottom: 1px solid var(--accent-color);
-      font-weight: 600;
-      transition: all 0.2s ease;
-    }
-    .juice-link:hover {
-      background-color: rgba(37, 99, 235, 0.05);
-    }
-    .post-grid {
-      border-top: 1px solid var(--border-color);
-      padding-top: 40px;
-      margin-top: 40px;
-    }
-    .grid-title {
-      font-size: 0.85rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--muted-color);
-      margin-bottom: 24px;
-    }
-    .posts-list {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-    .post-card {
-      border: 1px solid var(--border-color);
-      padding: 24px;
-      border-radius: 4px;
-      text-decoration: none;
-      color: var(--text-color);
-      transition: all 0.2s ease;
-    }
-    .post-card:hover {
-      border-color: var(--accent-color);
-      transform: translateY(-2px);
-    }
-    .post-card h3 {
-      font-size: 1.15rem;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-    .post-card p {
-      font-size: 0.9rem;
-      color: var(--muted-color);
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--border-color);
-      padding-top: 24px;
-      margin-top: 60px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.8rem;
-      color: var(--muted-color);
-    }
-    footer a { color: var(--muted-color); text-decoration: none; }
-    footer a:hover { color: var(--accent-color); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; align-items: flex-start; gap: 16px; }
-      h1 { font-size: 1.8rem; }
-    }
-  </style>
-  <link rel="canonical" href="https://yeonnam-room-song.program-school.online/posts/normal-1.html">
+<meta charset="UTF-8">
+<title>연남 가라오케 가격 안내</title>
+<link rel="canonical" href="https://yeonnam-room-song.program-school.online/posts/normal-1.html">
+  <meta name="bpaas-link-purpose" content="link-juice">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <meta property="og:url" content="https://yeonnam-room-song.program-school.online/posts/normal-1.html">
+  <meta property="og:title" content="연남 가라오케 가격 안내">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <a href="/" class="logo">KR.GEEK</a>
-      <nav><a href="../index.html">HOME</a> | <a href="../sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="meta-tag">// SWISS ACCENTED GRID SYSTEM</div>
-      <h1>안드레이 타르코프스키의 장시간 촬영(Long Take)과 조형적 침묵의 미학</h1>
-      <div class="content">
-        세계적인 영화 거장 안드레이 타르코프스키 감독이 고집했던 롱테이크 샷 기법은 단순히 기술적인 길이를 넘어 관객의 물리적 시간 감각을 정지시키고 인위적인 미장센 속 조형적 침묵을 체험하게 만듭니다. 이를 통해 카메라는 물리적 현실의 기록자가 아닌 흘러가는 존재론적 시간을 스크린에 온전히 봉인하는 철학적 매개로 기능하게 됩니다.<br><br>타르코프스키의 삶과 독보적인 필모그래피의 인문학적 배경은 <a href="https://ko.wikipedia.org/wiki/%EC%95%88%EB%93%9C%EB%A0%88%EC%9D%B4_%ED%83%80%EB%A5%B4%EC%BD%94%ED%94%84%EC%8A%A4%ED%82%A4" target="_blank" style="color: #64748b; text-decoration: underline;">위키백과: 안드레이 타르코프스키 예술 일대기</a>를 통해 거장이 걸어온 고독한 예술적 여정을 정교하게 이해하실 수 있습니다.
-      </div>
-      
-      
-    </main>
-    <footer>
-      <div>&copy; 2026 KR.GEEK. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="../sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
-    </footer>
-  </div>
+<h1>연남 가라오케 가격</h1>
+<p>연남 지역 가라오케 이용 시 비용은 시간대, 실내 환경, 추가 서비스 유무에 따라 달라질 수 있습니다. 사전에 요금 체계를 파악하면 예산 계획에 도움이 됩니다. 주로 기본 시간 단위 요금과 심야 할증제, 또는 음료 및 간식 포함 패키지로 운영되는 점을 참고하시기 바랍니다.</p>
+<p>가격 비교 시 주의할 점은 숨겨진 추가 요금이 없는지 확인하는 것입니다. 일부 업소는 기본 요금 외 청소료, 연장 요금, 시설 이용료 등을 별도로 부과할 수 있으니 이용 전에 명시된 가격표를 꼼꼼히 살펴보는 것이 중요합니다. 이를 통해 예상치 못한 비용 부담을 줄일 수 있습니다.</p>
+<p>연남 지역의 가라오케는 다양한 실내 규모와 분위기를 제공하고 있으므로, 목적에 맞는 요금제를 선택하는 것이 좋습니다. 단체 이용 시 할인 혜택을 제공하는 곳도 있으니 단체 인원 수와 이용 시간대에 맞춰 비교해 보는 전략이 효과적입니다. 자세한 요금 및 안내 정보는 <a class="anchor-link" href="https://survey.hongdae-massage-review.xyz/" data-bpaas-link-target="t2-survey-hongdae-massage-review">hongdae massage review</a> 에서 확인할 수 있습니다.</p>
+<p>가라오케 이용 가격은 수시로 변동될 수 있으므로, 방문 전 최신 요금 정보를 반드시 다시 한번 확인하시기 바랍니다. 정확한 요금 정보는 공식 채널이나 현장 안내를 통해 얻는 것이 가장 신뢰할 수 있는 방법입니다. 이를 통해 합리적인 비용으로 만족스러운 이용 경험을 얻을 수 있습니다.</p>
 </body>
 </html>
